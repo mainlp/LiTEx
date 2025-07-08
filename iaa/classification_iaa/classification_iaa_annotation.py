@@ -57,28 +57,28 @@ st.subheader("🧩 Step-wise Reasoning Assessment")
 
 reasoning_steps = {
     "Step 1: Does the explanation rely on resolving coreference between entities?": {
-        "tag": "Coreference",
+        "tag": "Coreference Resolution",
         "desc": """
         **What to check:**
         Determine whether the main entities in the premise and hypothesis refer to the same real-world referent, including via pronouns or phrases.
         """
         },
-    "Step 2: Does the explanation involve a change in sentence structure that preserves meaning?": {
-        "tag": "Syntactic",
-        "desc": """
-        **What to check:**
-        Determine whether the premise and hypothesis differ in structure - such as active vs. passive, reordered arguments, or coordination/subordination - while preserving the same meaning.
-        """
-        },
-    "Step 3: Does the explanation involve semantic similarity or substitution of key concepts?": {
-        "tag": "Semantic",
+    "Step 2: Does the explanation involve semantic similarity or substitution of key concepts?": {
+        "tag": "Paraphrastic Inference (Semantic)",
         "desc": """
         **What to check:**
         Evaluate whether core words or expressions - including verbs, nouns, adjectives - are semantically related between the premise and hypothesis. This includes synonymy, antonymy, lexical entailment, or category membership.
         """
         },
+    "Step 3: Does the explanation involve a change in sentence structure that preserves meaning?": {
+        "tag": "Paraphrastic Inference (Syntactic)",
+        "desc": """
+        **What to check:**
+        Determine whether the premise and hypothesis differ in structure - such as active vs. passive, reordered arguments, or coordination/subordination - while preserving the same meaning.
+        """
+        },
     "Step 4: Does the explanation rely on pragmatic cues like implicature or presupposition?":{
-        "tag": "Pragmatic",
+        "tag": "Pragmatic-Level Inference",
         "desc": """
         **What to check:**
         Look for meaning beyond the literal text - including implicature, presupposition, speaker intention, and conventional conversational meaning.
@@ -91,7 +91,7 @@ reasoning_steps = {
         Check whether the hypothesis introduced information that is neither supported nor contradicted by the premise - i.e., it is not mentioned explicitly.
         """},
     "Step 6: Does the explanation refer to logical constraints or conflict?": {
-        "tag": "Logic Conflict",
+        "tag": "Logical Conflict",
         "desc": """
         **What to check:**
         Evaluate whether the hypothesis interacts with the premise via logical structures — such as exclusivity, quantifiers (“only”, “none”), or conditionals — which constrain or conflict with each other.
@@ -104,7 +104,7 @@ reasoning_steps = {
         """
         },
     "Step 8: Does the explanation rely on real-world logical or causal reasoning?": {
-        "tag": "Inferential Knowledge",
+        "tag": "World-Informed Logical Reasoning",
         "desc": """
         **What to check:**
         Assess whether the hypothesis is supported by **real-world logical or causal knowledge** that is not explicitly stated in the premise. This includes everyday commonsense, general knowledge, or domain-specific facts.
@@ -126,14 +126,14 @@ st.subheader("🏷️ Explanation Classification")
 st.markdown("_Note: If multiple reasoning steps are selected, the system will suggest an initial explanation category based on the **last selected step**. You can manually override this suggestion below._")
 
 step_to_category_mapping = {
-    "Coreference": "Coreference",
-    "Semantic": "Semantic",
-    "Syntactic": "Syntactic",
-    "Pragmatic": "Pragmatic",
+    "Coreference Resolution": "Coreference Resolution",
+    "Paraphrastic Inference (Semantic)": "Semantic-level Inference",
+    "Paraphrastic Inference (Syntactic)": "Syntactic-level Inference",
+    "Pragmatic-Level Inference": "Pragmatic-Level Inference",
     "Absence of Mention": "Absence of Mention",
-    "Logic Conflict": "Logic Conflict",
+    "Logical Conflict": "Logical Structure Conflict",
     "Factual Knowledge": "Factual Knowledge",
-    "Inferential Knowledge": "Inferential Knowledge"
+    "World-Informed Logical Reasoning": "World-Informed Logical Reasoning"
 }
 
 guessed_category = None
@@ -159,12 +159,12 @@ if st.button("✅ Save Annotation"):
     
     # determine high-level category
     text_based_types = [
-        "Coreference",
-        "Semantic",
-        "Syntactic",
-        "Pragmatic",
+        "Coreference Resolution",
+        "Semantic-level Inference",
+        "Syntactic-level Inference",
+        "Pragmatic-Level Inference",
         "Absence of Mention",
-        "Logic Conflict"
+        "Logical Structure Conflict"
     ]
     if selected_category in text_based_types:
         high_level_category = "Text-Based Inference"
@@ -175,7 +175,6 @@ if st.button("✅ Save Annotation"):
         "pairID": row.get("pairID") if uploaded_file is not None else "",
         "premise": premise,
         "hypothesis": hypothesis,
-        "gold_label": gold_label,
         "explanation": explanation,
         "selected_steps": selected_steps,
         "explanation_category": selected_category,

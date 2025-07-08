@@ -1,0 +1,1772 @@
+[
+  {
+    "index": 16,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Logical Structure Conflict",
+    "premise": "A woman with a green headscarf, blue shirt and a very big grin.",
+    "hypothesis": "The woman has been shot.",
+    "explanation_annotator0": "The woman would not have a big grin if she has been shot.",
+    "explanation_annotator1": "The woman would not have a big grin if she has been shot.",
+    "full_entry_annotator0": {
+      "pairID": "6160193920.jpg#4r1c",
+      "premise": "A woman with a green headscarf, blue shirt and a very big grin.",
+      "hypothesis": "The woman has been shot.",
+      "explanation": "The woman would not have a big grin if she has been shot.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "6160193920.jpg#4r1c",
+      "premise": "A woman with a green headscarf, blue shirt and a very big grin.",
+      "hypothesis": "The woman has been shot.",
+      "explanation": "The woman would not have a big grin if she has been shot.",
+      "selected_steps": [
+        {
+          "step": "Step 6: Does the explanation refer to logical constraints or conflict?",
+          "type": "Logical Conflict"
+        }
+      ],
+      "explanation_category": "Logical Structure Conflict",
+      "note": ""
+    }
+  },
+  {
+    "index": 26,
+    "annotator0_label": "Factual Knowledge",
+    "annotator1_label": "Logical Structure Conflict",
+    "premise": "An old man with a package poses in front of an advertisement.",
+    "hypothesis": "A man walks by an ad.",
+    "explanation_annotator0": "poses  is different from walks.",
+    "explanation_annotator1": "poses  is different from walks.",
+    "full_entry_annotator0": {
+      "pairID": "4791890474.jpg#3r1c",
+      "premise": "An old man with a package poses in front of an advertisement.",
+      "hypothesis": "A man walks by an ad.",
+      "explanation": "poses  is different from walks.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "4791890474.jpg#3r1c",
+      "premise": "An old man with a package poses in front of an advertisement.",
+      "hypothesis": "A man walks by an ad.",
+      "explanation": "poses  is different from walks.",
+      "selected_steps": [
+        {
+          "step": "Step 6: Does the explanation refer to logical constraints or conflict?",
+          "type": "Logical Conflict"
+        }
+      ],
+      "explanation_category": "Logical Structure Conflict",
+      "note": ""
+    }
+  },
+  {
+    "index": 35,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Logical Structure Conflict",
+    "premise": "A statue at a museum that no seems to be looking at.",
+    "hypothesis": "Tons of people are gathered around the statue.",
+    "explanation_annotator0": "If tons of people are gathered around the statue, it is not possible that no one seems to be looking at it.",
+    "explanation_annotator1": "If tons of people are gathered around the statue, it is not possible that no one seems to be looking at it.",
+    "full_entry_annotator0": {
+      "pairID": "6526219567.jpg#4r1c",
+      "premise": "A statue at a museum that no seems to be looking at.",
+      "hypothesis": "Tons of people are gathered around the statue.",
+      "explanation": "If tons of people are gathered around the statue, it is not possible that no one seems to be looking at it.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "6526219567.jpg#4r1c",
+      "premise": "A statue at a museum that no seems to be looking at.",
+      "hypothesis": "Tons of people are gathered around the statue.",
+      "explanation": "If tons of people are gathered around the statue, it is not possible that no one seems to be looking at it.",
+      "selected_steps": [
+        {
+          "step": "Step 6: Does the explanation refer to logical constraints or conflict?",
+          "type": "Logical Conflict"
+        }
+      ],
+      "explanation_category": "Logical Structure Conflict",
+      "note": ""
+    }
+  },
+  {
+    "index": 53,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A man playing an electric guitar on stage.",
+    "hypothesis": "A man is performing for cash.",
+    "explanation_annotator0": "Just because a man is playing a guitar on stage does not mean he is performing for cash.",
+    "explanation_annotator1": "Just because a man is playing a guitar on stage does not mean he is performing for cash.",
+    "full_entry_annotator0": {
+      "pairID": "1034985636.jpg#3r1n",
+      "premise": "A man playing an electric guitar on stage.",
+      "hypothesis": "A man is performing for cash.",
+      "explanation": "Just because a man is playing a guitar on stage does not mean he is performing for cash.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "1034985636.jpg#3r1n",
+      "premise": "A man playing an electric guitar on stage.",
+      "hypothesis": "A man is performing for cash.",
+      "explanation": "Just because a man is playing a guitar on stage does not mean he is performing for cash.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 54,
+    "annotator0_label": "Syntactic-level Inference",
+    "annotator1_label": "Semantic-level Inference",
+    "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+    "hypothesis": "A doctor is looking at a book",
+    "explanation_annotator0": "A doctor is looking at the new medical manuals.",
+    "explanation_annotator1": "A doctor is looking at the new medical manuals.",
+    "full_entry_annotator0": {
+      "pairID": "3856149623.jpg#1r1e",
+      "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+      "hypothesis": "A doctor is looking at a book",
+      "explanation": "A doctor is looking at the new medical manuals.",
+      "selected_steps": [
+        {
+          "step": "Step 3: Does the explanation involve a change in sentence structure that preserves meaning?",
+          "type": "Paraphrastic Inference (Syntactic)"
+        }
+      ],
+      "explanation_category": "Syntactic-level Inference",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3856149623.jpg#1r1e",
+      "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+      "hypothesis": "A doctor is looking at a book",
+      "explanation": "A doctor is looking at the new medical manuals.",
+      "selected_steps": [
+        {
+          "step": "Step 2: Does the explanation involve semantic similarity or substitution of key concepts?",
+          "type": "Paraphrastic Inference (Semantic)"
+        }
+      ],
+      "explanation_category": "Semantic-level Inference",
+      "note": ""
+    }
+  },
+  {
+    "index": 55,
+    "annotator0_label": "Factual Knowledge",
+    "annotator1_label": "Semantic-level Inference",
+    "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+    "hypothesis": "A doctor is looking at a book",
+    "explanation_annotator0": "A medical manual is a type of book.",
+    "explanation_annotator1": "A medical manual is a type of book.",
+    "full_entry_annotator0": {
+      "pairID": "3856149623.jpg#1r1e",
+      "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+      "hypothesis": "A doctor is looking at a book",
+      "explanation": "A medical manual is a type of book.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3856149623.jpg#1r1e",
+      "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+      "hypothesis": "A doctor is looking at a book",
+      "explanation": "A medical manual is a type of book.",
+      "selected_steps": [
+        {
+          "step": "Step 2: Does the explanation involve semantic similarity or substitution of key concepts?",
+          "type": "Paraphrastic Inference (Semantic)"
+        }
+      ],
+      "explanation_category": "Semantic-level Inference",
+      "note": ""
+    }
+  },
+  {
+    "index": 58,
+    "annotator0_label": "Syntactic-level Inference",
+    "annotator1_label": "Logical Structure Conflict",
+    "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+    "hypothesis": "A man is eating pb and j",
+    "explanation_annotator0": "A doctor and assistant are two people looking through manuals is different than a man is eating a sandwich.",
+    "explanation_annotator1": "A doctor and assistant are two people looking through manuals is different than a man is eating a sandwich.",
+    "full_entry_annotator0": {
+      "pairID": "3856149623.jpg#1r1c",
+      "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+      "hypothesis": "A man is eating pb and j",
+      "explanation": "A doctor and assistant are two people looking through manuals is different than a man is eating a sandwich.",
+      "selected_steps": [
+        {
+          "step": "Step 3: Does the explanation involve a change in sentence structure that preserves meaning?",
+          "type": "Paraphrastic Inference (Syntactic)"
+        }
+      ],
+      "explanation_category": "Syntactic-level Inference",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3856149623.jpg#1r1c",
+      "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+      "hypothesis": "A man is eating pb and j",
+      "explanation": "A doctor and assistant are two people looking through manuals is different than a man is eating a sandwich.",
+      "selected_steps": [
+        {
+          "step": "Step 6: Does the explanation refer to logical constraints or conflict?",
+          "type": "Logical Conflict"
+        }
+      ],
+      "explanation_category": "Logical Structure Conflict",
+      "note": ""
+    }
+  },
+  {
+    "index": 59,
+    "annotator0_label": "Logical Structure Conflict",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+    "hypothesis": "A man is eating pb and j",
+    "explanation_annotator0": "There cannot be one man if there is a doctor and an assistant.",
+    "explanation_annotator1": "There cannot be one man if there is a doctor and an assistant.",
+    "full_entry_annotator0": {
+      "pairID": "3856149623.jpg#1r1c",
+      "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+      "hypothesis": "A man is eating pb and j",
+      "explanation": "There cannot be one man if there is a doctor and an assistant.",
+      "selected_steps": [
+        {
+          "step": "Step 6: Does the explanation refer to logical constraints or conflict?",
+          "type": "Logical Conflict"
+        }
+      ],
+      "explanation_category": "Logical Structure Conflict",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3856149623.jpg#1r1c",
+      "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+      "hypothesis": "A man is eating pb and j",
+      "explanation": "There cannot be one man if there is a doctor and an assistant.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 60,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+    "hypothesis": "A doctor is studying",
+    "explanation_annotator0": "Answer: Just because the is studying it doesn't mean he is reading medical manuals",
+    "explanation_annotator1": "Answer: Just because the is studying it doesn't mean he is reading medical manuals",
+    "full_entry_annotator0": {
+      "pairID": "3856149623.jpg#1r1n",
+      "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+      "hypothesis": "A doctor is studying",
+      "explanation": "Answer: Just because the is studying it doesn't mean he is reading medical manuals",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3856149623.jpg#1r1n",
+      "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+      "hypothesis": "A doctor is studying",
+      "explanation": "Answer: Just because the is studying it doesn't mean he is reading medical manuals",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": "The annotator got the P and H wrong"
+    }
+  },
+  {
+    "index": 61,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+    "hypothesis": "A doctor is studying",
+    "explanation_annotator0": "Just because the doctor is looking through medical manuals doesn't mean she's studying.",
+    "explanation_annotator1": "Just because the doctor is looking through medical manuals doesn't mean she's studying.",
+    "full_entry_annotator0": {
+      "pairID": "3856149623.jpg#1r1n",
+      "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+      "hypothesis": "A doctor is studying",
+      "explanation": "Just because the doctor is looking through medical manuals doesn't mean she's studying.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3856149623.jpg#1r1n",
+      "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+      "hypothesis": "A doctor is studying",
+      "explanation": "Just because the doctor is looking through medical manuals doesn't mean she's studying.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 62,
+    "annotator0_label": "Syntactic-level Inference",
+    "annotator1_label": "Pragmatic-Level Inference",
+    "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+    "hypothesis": "A doctor is studying",
+    "explanation_annotator0": "The doctor and her assistant is studying medical manuals.",
+    "explanation_annotator1": "The doctor and her assistant is studying medical manuals.",
+    "full_entry_annotator0": {
+      "pairID": "3856149623.jpg#1r1n",
+      "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+      "hypothesis": "A doctor is studying",
+      "explanation": "The doctor and her assistant is studying medical manuals.",
+      "selected_steps": [
+        {
+          "step": "Step 3: Does the explanation involve a change in sentence structure that preserves meaning?",
+          "type": "Paraphrastic Inference (Syntactic)"
+        }
+      ],
+      "explanation_category": "Syntactic-level Inference",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3856149623.jpg#1r1n",
+      "premise": "A blond-haired doctor and her African american assistant looking threw new medical manuals.",
+      "hypothesis": "A doctor is studying",
+      "explanation": "The doctor and her assistant is studying medical manuals.",
+      "selected_steps": [
+        {
+          "step": "Step 4: Does the explanation rely on pragmatic cues like implicature or presupposition?",
+          "type": "Pragmatic-Level Inference"
+        }
+      ],
+      "explanation_category": "Pragmatic-Level Inference",
+      "note": "The explanation should be for the label \"entailment\". Annotation wrong"
+    }
+  },
+  {
+    "index": 69,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "-",
+    "premise": "One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground.",
+    "hypothesis": "A man watches his daughter leap",
+    "explanation_annotator0": "The man and girl are in relation to each other and not strangers.",
+    "explanation_annotator1": "The man and girl are in relation to each other and not strangers.",
+    "full_entry_annotator0": {
+      "pairID": "3827316480.jpg#0r1n",
+      "premise": "One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground.",
+      "hypothesis": "A man watches his daughter leap",
+      "explanation": "The man and girl are in relation to each other and not strangers.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3827316480.jpg#0r1n",
+      "premise": "One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground.",
+      "hypothesis": "A man watches his daughter leap",
+      "explanation": "The man and girl are in relation to each other and not strangers.",
+      "selected_steps": [],
+      "explanation_category": "-",
+      "note": "explanation makes no sense"
+    }
+  },
+  {
+    "index": 70,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground.",
+    "hypothesis": "A man watches his daughter leap",
+    "explanation_annotator0": "Just because he's sitting on the ground doesn't mean the man watches his daughter.",
+    "explanation_annotator1": "Just because he's sitting on the ground doesn't mean the man watches his daughter.",
+    "full_entry_annotator0": {
+      "pairID": "3827316480.jpg#0r1n",
+      "premise": "One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground.",
+      "hypothesis": "A man watches his daughter leap",
+      "explanation": "Just because he's sitting on the ground doesn't mean the man watches his daughter.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3827316480.jpg#0r1n",
+      "premise": "One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground.",
+      "hypothesis": "A man watches his daughter leap",
+      "explanation": "Just because he's sitting on the ground doesn't mean the man watches his daughter.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 71,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground.",
+    "hypothesis": "A man watches his daughter leap",
+    "explanation_annotator0": "Just because the man and a girl are wearing matching wool hats doesn't mean that she is the man's daughter.",
+    "explanation_annotator1": "Just because the man and a girl are wearing matching wool hats doesn't mean that she is the man's daughter.",
+    "full_entry_annotator0": {
+      "pairID": "3827316480.jpg#0r1n",
+      "premise": "One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground.",
+      "hypothesis": "A man watches his daughter leap",
+      "explanation": "Just because the man and a girl are wearing matching wool hats doesn't mean that she is the man's daughter.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3827316480.jpg#0r1n",
+      "premise": "One tan girl with a wool hat is running and leaning over an object, while another person in a wool hat is sitting on the ground.",
+      "hypothesis": "A man watches his daughter leap",
+      "explanation": "Just because the man and a girl are wearing matching wool hats doesn't mean that she is the man's daughter.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 72,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A young family enjoys feeling ocean waves lap at their feet.",
+    "hypothesis": "A young man and woman take their child to the beach for the first time.",
+    "explanation_annotator0": "Just because a young family are by the ocean does not mean they are taking their child there for the first time.",
+    "explanation_annotator1": "Just because a young family are by the ocean does not mean they are taking their child there for the first time.",
+    "full_entry_annotator0": {
+      "pairID": "2946464027.jpg#0r1n",
+      "premise": "A young family enjoys feeling ocean waves lap at their feet.",
+      "hypothesis": "A young man and woman take their child to the beach for the first time.",
+      "explanation": "Just because a young family are by the ocean does not mean they are taking their child there for the first time.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "2946464027.jpg#0r1n",
+      "premise": "A young family enjoys feeling ocean waves lap at their feet.",
+      "hypothesis": "A young man and woman take their child to the beach for the first time.",
+      "explanation": "Just because a young family are by the ocean does not mean they are taking their child there for the first time.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 74,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A young family enjoys feeling ocean waves lap at their feet.",
+    "hypothesis": "A young man and woman take their child to the beach for the first time.",
+    "explanation_annotator0": "The young family does not mean that they have a child at the beach.",
+    "explanation_annotator1": "The young family does not mean that they have a child at the beach.",
+    "full_entry_annotator0": {
+      "pairID": "2946464027.jpg#0r1n",
+      "premise": "A young family enjoys feeling ocean waves lap at their feet.",
+      "hypothesis": "A young man and woman take their child to the beach for the first time.",
+      "explanation": "The young family does not mean that they have a child at the beach.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "2946464027.jpg#0r1n",
+      "premise": "A young family enjoys feeling ocean waves lap at their feet.",
+      "hypothesis": "A young man and woman take their child to the beach for the first time.",
+      "explanation": "The young family does not mean that they have a child at the beach.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 84,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A couple walk hand in hand down a street.",
+    "hypothesis": "The couple is married.",
+    "explanation_annotator0": "Just because the couple is hand in hand doesn't mean they are married.",
+    "explanation_annotator1": "Just because the couple is hand in hand doesn't mean they are married.",
+    "full_entry_annotator0": {
+      "pairID": "3572548523.jpg#4r1n",
+      "premise": "A couple walk hand in hand down a street.",
+      "hypothesis": "The couple is married.",
+      "explanation": "Just because the couple is hand in hand doesn't mean they are married.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3572548523.jpg#4r1n",
+      "premise": "A couple walk hand in hand down a street.",
+      "hypothesis": "The couple is married.",
+      "explanation": "Just because the couple is hand in hand doesn't mean they are married.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 85,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A couple walk hand in hand down a street.",
+    "hypothesis": "The couple is married.",
+    "explanation_annotator0": "Just because the couple is walking hand in hand doesn't mean they're married.",
+    "explanation_annotator1": "Just because the couple is walking hand in hand doesn't mean they're married.",
+    "full_entry_annotator0": {
+      "pairID": "3572548523.jpg#4r1n",
+      "premise": "A couple walk hand in hand down a street.",
+      "hypothesis": "The couple is married.",
+      "explanation": "Just because the couple is walking hand in hand doesn't mean they're married.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3572548523.jpg#4r1n",
+      "premise": "A couple walk hand in hand down a street.",
+      "hypothesis": "The couple is married.",
+      "explanation": "Just because the couple is walking hand in hand doesn't mean they're married.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 86,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A couple walk hand in hand down a street.",
+    "hypothesis": "The couple is married.",
+    "explanation_annotator0": "The couple walking down the street holding hands does not mean that they are married.",
+    "explanation_annotator1": "The couple walking down the street holding hands does not mean that they are married.",
+    "full_entry_annotator0": {
+      "pairID": "3572548523.jpg#4r1n",
+      "premise": "A couple walk hand in hand down a street.",
+      "hypothesis": "The couple is married.",
+      "explanation": "The couple walking down the street holding hands does not mean that they are married.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3572548523.jpg#4r1n",
+      "premise": "A couple walk hand in hand down a street.",
+      "hypothesis": "The couple is married.",
+      "explanation": "The couple walking down the street holding hands does not mean that they are married.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 102,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A man reads the paper in a bar with green lighting.",
+    "hypothesis": "The man is reading the sportspage.",
+    "explanation_annotator0": "The man could be reading something other than the sportspage.",
+    "explanation_annotator1": "The man could be reading something other than the sportspage.",
+    "full_entry_annotator0": {
+      "pairID": "2096485764.jpg#0r1n",
+      "premise": "A man reads the paper in a bar with green lighting.",
+      "hypothesis": "The man is reading the sportspage.",
+      "explanation": "The man could be reading something other than the sportspage.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "2096485764.jpg#0r1n",
+      "premise": "A man reads the paper in a bar with green lighting.",
+      "hypothesis": "The man is reading the sportspage.",
+      "explanation": "The man could be reading something other than the sportspage.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 104,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A man reads the paper in a bar with green lighting.",
+    "hypothesis": "The man is reading the sportspage.",
+    "explanation_annotator0": "Just because the man is reading the paper in a bar with green lighting does not mean that he is reading the sportspage.",
+    "explanation_annotator1": "Just because the man is reading the paper in a bar with green lighting does not mean that he is reading the sportspage.",
+    "full_entry_annotator0": {
+      "pairID": "2096485764.jpg#0r1n",
+      "premise": "A man reads the paper in a bar with green lighting.",
+      "hypothesis": "The man is reading the sportspage.",
+      "explanation": "Just because the man is reading the paper in a bar with green lighting does not mean that he is reading the sportspage.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "2096485764.jpg#0r1n",
+      "premise": "A man reads the paper in a bar with green lighting.",
+      "hypothesis": "The man is reading the sportspage.",
+      "explanation": "Just because the man is reading the paper in a bar with green lighting does not mean that he is reading the sportspage.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 109,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "Three firefighter come out of subway station.",
+    "hypothesis": "Three firefighters putting out a fire inside of a subway station.",
+    "explanation_annotator0": "Just because they're coming out of a subway station doesn't mean they're putting out a fire.",
+    "explanation_annotator1": "Just because they're coming out of a subway station doesn't mean they're putting out a fire.",
+    "full_entry_annotator0": {
+      "pairID": "4679111230.jpg#2r1n",
+      "premise": "Three firefighter come out of subway station.",
+      "hypothesis": "Three firefighters putting out a fire inside of a subway station.",
+      "explanation": "Just because they're coming out of a subway station doesn't mean they're putting out a fire.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "4679111230.jpg#2r1n",
+      "premise": "Three firefighter come out of subway station.",
+      "hypothesis": "Three firefighters putting out a fire inside of a subway station.",
+      "explanation": "Just because they're coming out of a subway station doesn't mean they're putting out a fire.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 110,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "Three firefighter come out of subway station.",
+    "hypothesis": "Three firefighters putting out a fire inside of a subway station.",
+    "explanation_annotator0": "Just because three firefighters are inside a subway station does not mean they are putting out a fire.",
+    "explanation_annotator1": "Just because three firefighters are inside a subway station does not mean they are putting out a fire.",
+    "full_entry_annotator0": {
+      "pairID": "4679111230.jpg#2r1n",
+      "premise": "Three firefighter come out of subway station.",
+      "hypothesis": "Three firefighters putting out a fire inside of a subway station.",
+      "explanation": "Just because three firefighters are inside a subway station does not mean they are putting out a fire.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "4679111230.jpg#2r1n",
+      "premise": "Three firefighter come out of subway station.",
+      "hypothesis": "Three firefighters putting out a fire inside of a subway station.",
+      "explanation": "Just because three firefighters are inside a subway station does not mean they are putting out a fire.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 120,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground.",
+    "hypothesis": "A person is selling coconuts.",
+    "explanation_annotator0": "Just because their are a pile of coconuts nearby that does not mean the person is selling them.",
+    "explanation_annotator1": "Just because their are a pile of coconuts nearby that does not mean the person is selling them.",
+    "full_entry_annotator0": {
+      "pairID": "2892843393.jpg#1r1n",
+      "premise": "A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground.",
+      "hypothesis": "A person is selling coconuts.",
+      "explanation": "Just because their are a pile of coconuts nearby that does not mean the person is selling them.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "2892843393.jpg#1r1n",
+      "premise": "A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground.",
+      "hypothesis": "A person is selling coconuts.",
+      "explanation": "Just because their are a pile of coconuts nearby that does not mean the person is selling them.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 121,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground.",
+    "hypothesis": "A person is selling coconuts.",
+    "explanation_annotator0": "Just because the person is standing outside doesn't mean he's selling coconuts.",
+    "explanation_annotator1": "Just because the person is standing outside doesn't mean he's selling coconuts.",
+    "full_entry_annotator0": {
+      "pairID": "2892843393.jpg#1r1n",
+      "premise": "A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground.",
+      "hypothesis": "A person is selling coconuts.",
+      "explanation": "Just because the person is standing outside doesn't mean he's selling coconuts.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "2892843393.jpg#1r1n",
+      "premise": "A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground.",
+      "hypothesis": "A person is selling coconuts.",
+      "explanation": "Just because the person is standing outside doesn't mean he's selling coconuts.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 122,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground.",
+    "hypothesis": "A person is selling coconuts.",
+    "explanation_annotator0": "A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground does not imply that the person is selling coconuts.",
+    "explanation_annotator1": "A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground does not imply that the person is selling coconuts.",
+    "full_entry_annotator0": {
+      "pairID": "2892843393.jpg#1r1n",
+      "premise": "A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground.",
+      "hypothesis": "A person is selling coconuts.",
+      "explanation": "A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground does not imply that the person is selling coconuts.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "2892843393.jpg#1r1n",
+      "premise": "A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground.",
+      "hypothesis": "A person is selling coconuts.",
+      "explanation": "A person wearing a straw hat, standing outside working a steel apparatus with a pile of coconuts on the ground does not imply that the person is selling coconuts.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 132,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "Male in a blue jacket decides to lay in the grass.",
+    "hypothesis": "The guy wearing a blue jacket is laying on the green grass taking a nap.",
+    "explanation_annotator0": "You can lay in the grass and not be taking a nap.",
+    "explanation_annotator1": "You can lay in the grass and not be taking a nap.",
+    "full_entry_annotator0": {
+      "pairID": "4923271886.jpg#2r1n",
+      "premise": "Male in a blue jacket decides to lay in the grass.",
+      "hypothesis": "The guy wearing a blue jacket is laying on the green grass taking a nap.",
+      "explanation": "You can lay in the grass and not be taking a nap.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "4923271886.jpg#2r1n",
+      "premise": "Male in a blue jacket decides to lay in the grass.",
+      "hypothesis": "The guy wearing a blue jacket is laying on the green grass taking a nap.",
+      "explanation": "You can lay in the grass and not be taking a nap.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 133,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "Male in a blue jacket decides to lay in the grass.",
+    "hypothesis": "The guy wearing a blue jacket is laying on the green grass taking a nap.",
+    "explanation_annotator0": "Just because he's laying on the grass doesn't mean he's taking a nap.",
+    "explanation_annotator1": "Just because he's laying on the grass doesn't mean he's taking a nap.",
+    "full_entry_annotator0": {
+      "pairID": "4923271886.jpg#2r1n",
+      "premise": "Male in a blue jacket decides to lay in the grass.",
+      "hypothesis": "The guy wearing a blue jacket is laying on the green grass taking a nap.",
+      "explanation": "Just because he's laying on the grass doesn't mean he's taking a nap.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "4923271886.jpg#2r1n",
+      "premise": "Male in a blue jacket decides to lay in the grass.",
+      "hypothesis": "The guy wearing a blue jacket is laying on the green grass taking a nap.",
+      "explanation": "Just because he's laying on the grass doesn't mean he's taking a nap.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 134,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "Male in a blue jacket decides to lay in the grass.",
+    "hypothesis": "The guy wearing a blue jacket is laying on the green grass taking a nap.",
+    "explanation_annotator0": "The guy wearing the blue jacket laying on the green grass does not mean that he is taking a nap.",
+    "explanation_annotator1": "The guy wearing the blue jacket laying on the green grass does not mean that he is taking a nap.",
+    "full_entry_annotator0": {
+      "pairID": "4923271886.jpg#2r1n",
+      "premise": "Male in a blue jacket decides to lay in the grass.",
+      "hypothesis": "The guy wearing a blue jacket is laying on the green grass taking a nap.",
+      "explanation": "The guy wearing the blue jacket laying on the green grass does not mean that he is taking a nap.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "4923271886.jpg#2r1n",
+      "premise": "Male in a blue jacket decides to lay in the grass.",
+      "hypothesis": "The guy wearing a blue jacket is laying on the green grass taking a nap.",
+      "explanation": "The guy wearing the blue jacket laying on the green grass does not mean that he is taking a nap.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 136,
+    "annotator0_label": "Logical Structure Conflict",
+    "annotator1_label": "-",
+    "premise": "During calf roping a cowboy calls off his horse.",
+    "hypothesis": "A first time roper falls off his horse.",
+    "explanation_annotator0": "If the cowboy calls his horse, its impossible to fall off his horse.",
+    "explanation_annotator1": "If the cowboy calls his horse, its impossible to fall off his horse.",
+    "full_entry_annotator0": {
+      "pairID": "2972268289.jpg#4r1n",
+      "premise": "During calf roping a cowboy calls off his horse.",
+      "hypothesis": "A first time roper falls off his horse.",
+      "explanation": "If the cowboy calls his horse, its impossible to fall off his horse.",
+      "selected_steps": [
+        {
+          "step": "Step 6: Does the explanation refer to logical constraints or conflict?",
+          "type": "Logical Conflict"
+        }
+      ],
+      "explanation_category": "Logical Structure Conflict",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "2972268289.jpg#4r1n",
+      "premise": "During calf roping a cowboy calls off his horse.",
+      "hypothesis": "A first time roper falls off his horse.",
+      "explanation": "If the cowboy calls his horse, its impossible to fall off his horse.",
+      "selected_steps": [],
+      "explanation_category": "-",
+      "note": "Typo in the H, so that annotator does not recognise"
+    }
+  },
+  {
+    "index": 137,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "During calf roping a cowboy calls off his horse.",
+    "hypothesis": "A first time roper falls off his horse.",
+    "explanation_annotator0": "Because a cowboy falls off his horse does not mean that he is a first time roper.",
+    "explanation_annotator1": "Because a cowboy falls off his horse does not mean that he is a first time roper.",
+    "full_entry_annotator0": {
+      "pairID": "2972268289.jpg#4r1n",
+      "premise": "During calf roping a cowboy calls off his horse.",
+      "hypothesis": "A first time roper falls off his horse.",
+      "explanation": "Because a cowboy falls off his horse does not mean that he is a first time roper.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "2972268289.jpg#4r1n",
+      "premise": "During calf roping a cowboy calls off his horse.",
+      "hypothesis": "A first time roper falls off his horse.",
+      "explanation": "Because a cowboy falls off his horse does not mean that he is a first time roper.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 146,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A little boy in a gray and white striped sweater and tan pants is playing on a piece of playground equipment.",
+    "hypothesis": "The boy is playing on the swings after school.",
+    "explanation_annotator0": "The boy playing in the park on a piece of playground equipment does not mean that the equipment is swings.",
+    "explanation_annotator1": "The boy playing in the park on a piece of playground equipment does not mean that the equipment is swings.",
+    "full_entry_annotator0": {
+      "pairID": "4770171876.jpg#0r1n",
+      "premise": "A little boy in a gray and white striped sweater and tan pants is playing on a piece of playground equipment.",
+      "hypothesis": "The boy is playing on the swings after school.",
+      "explanation": "The boy playing in the park on a piece of playground equipment does not mean that the equipment is swings.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "4770171876.jpg#0r1n",
+      "premise": "A little boy in a gray and white striped sweater and tan pants is playing on a piece of playground equipment.",
+      "hypothesis": "The boy is playing on the swings after school.",
+      "explanation": "The boy playing in the park on a piece of playground equipment does not mean that the equipment is swings.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 149,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A little boy in a gray and white striped sweater and tan pants is playing on a piece of playground equipment.",
+    "hypothesis": "The boy is sitting on the school bus on his way home.",
+    "explanation_annotator0": "There can__ be a playground on a school bus .",
+    "explanation_annotator1": "There can__ be a playground on a school bus .",
+    "full_entry_annotator0": {
+      "pairID": "4770171876.jpg#0r1c",
+      "premise": "A little boy in a gray and white striped sweater and tan pants is playing on a piece of playground equipment.",
+      "hypothesis": "The boy is sitting on the school bus on his way home.",
+      "explanation": "There can__ be a playground on a school bus .",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "4770171876.jpg#0r1c",
+      "premise": "A little boy in a gray and white striped sweater and tan pants is playing on a piece of playground equipment.",
+      "hypothesis": "The boy is sitting on the school bus on his way home.",
+      "explanation": "There can__ be a playground on a school bus .",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 150,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A woman wearing a ball cap squats down to touch the cracked earth.",
+    "hypothesis": "An archeologist wearing a hat squats to examine the site for a dig",
+    "explanation_annotator0": "A woman wearing a ball cap is not necessarily be an archaeologist.Just because a woman squats down to touch the cracked earth doesn't necessarily mean that she is going to examine the site for a dig.",
+    "explanation_annotator1": "A woman wearing a ball cap is not necessarily be an archaeologist.Just because a woman squats down to touch the cracked earth doesn't necessarily mean that she is going to examine the site for a dig.",
+    "full_entry_annotator0": {
+      "pairID": "351765604.jpg#0r1n",
+      "premise": "A woman wearing a ball cap squats down to touch the cracked earth.",
+      "hypothesis": "An archeologist wearing a hat squats to examine the site for a dig",
+      "explanation": "A woman wearing a ball cap is not necessarily be an archaeologist.Just because a woman squats down to touch the cracked earth doesn't necessarily mean that she is going to examine the site for a dig.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "351765604.jpg#0r1n",
+      "premise": "A woman wearing a ball cap squats down to touch the cracked earth.",
+      "hypothesis": "An archeologist wearing a hat squats to examine the site for a dig",
+      "explanation": "A woman wearing a ball cap is not necessarily be an archaeologist.Just because a woman squats down to touch the cracked earth doesn't necessarily mean that she is going to examine the site for a dig.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 151,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A woman wearing a ball cap squats down to touch the cracked earth.",
+    "hypothesis": "An archeologist wearing a hat squats to examine the site for a dig",
+    "explanation_annotator0": "Just because the woman is touching the earth doesn't mean she is an archeologist. Just because she is touching the earth doens't mean she is trying to examine the site for a dig.",
+    "explanation_annotator1": "Just because the woman is touching the earth doesn't mean she is an archeologist. Just because she is touching the earth doens't mean she is trying to examine the site for a dig.",
+    "full_entry_annotator0": {
+      "pairID": "351765604.jpg#0r1n",
+      "premise": "A woman wearing a ball cap squats down to touch the cracked earth.",
+      "hypothesis": "An archeologist wearing a hat squats to examine the site for a dig",
+      "explanation": "Just because the woman is touching the earth doesn't mean she is an archeologist. Just because she is touching the earth doens't mean she is trying to examine the site for a dig.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "351765604.jpg#0r1n",
+      "premise": "A woman wearing a ball cap squats down to touch the cracked earth.",
+      "hypothesis": "An archeologist wearing a hat squats to examine the site for a dig",
+      "explanation": "Just because the woman is touching the earth doesn't mean she is an archeologist. Just because she is touching the earth doens't mean she is trying to examine the site for a dig.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 152,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A woman wearing a ball cap squats down to touch the cracked earth.",
+    "hypothesis": "An archeologist wearing a hat squats to examine the site for a dig",
+    "explanation_annotator0": "The woman wearing the hat may not specifically be an archeologist and they may not be preparing the site for a dig.",
+    "explanation_annotator1": "The woman wearing the hat may not specifically be an archeologist and they may not be preparing the site for a dig.",
+    "full_entry_annotator0": {
+      "pairID": "351765604.jpg#0r1n",
+      "premise": "A woman wearing a ball cap squats down to touch the cracked earth.",
+      "hypothesis": "An archeologist wearing a hat squats to examine the site for a dig",
+      "explanation": "The woman wearing the hat may not specifically be an archeologist and they may not be preparing the site for a dig.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "351765604.jpg#0r1n",
+      "premise": "A woman wearing a ball cap squats down to touch the cracked earth.",
+      "hypothesis": "An archeologist wearing a hat squats to examine the site for a dig",
+      "explanation": "The woman wearing the hat may not specifically be an archeologist and they may not be preparing the site for a dig.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 159,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "Two children re laying on a rug with some wooden bricks laid out in a square between them.",
+    "hypothesis": "Two children are building a brick furnace.",
+    "explanation_annotator0": "Bricks in a square doesn't mean or imply that the children are building a furnace.",
+    "explanation_annotator1": "Bricks in a square doesn't mean or imply that the children are building a furnace.",
+    "full_entry_annotator0": {
+      "pairID": "847782643.jpg#0r1n",
+      "premise": "Two children re laying on a rug with some wooden bricks laid out in a square between them.",
+      "hypothesis": "Two children are building a brick furnace.",
+      "explanation": "Bricks in a square doesn't mean or imply that the children are building a furnace.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "847782643.jpg#0r1n",
+      "premise": "Two children re laying on a rug with some wooden bricks laid out in a square between them.",
+      "hypothesis": "Two children are building a brick furnace.",
+      "explanation": "Bricks in a square doesn't mean or imply that the children are building a furnace.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 160,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "Two children re laying on a rug with some wooden bricks laid out in a square between them.",
+    "hypothesis": "Two children are building a brick furnace.",
+    "explanation_annotator0": "Just because there are bricks laid between the children does not mean they are building with them.",
+    "explanation_annotator1": "Just because there are bricks laid between the children does not mean they are building with them.",
+    "full_entry_annotator0": {
+      "pairID": "847782643.jpg#0r1n",
+      "premise": "Two children re laying on a rug with some wooden bricks laid out in a square between them.",
+      "hypothesis": "Two children are building a brick furnace.",
+      "explanation": "Just because there are bricks laid between the children does not mean they are building with them.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "847782643.jpg#0r1n",
+      "premise": "Two children re laying on a rug with some wooden bricks laid out in a square between them.",
+      "hypothesis": "Two children are building a brick furnace.",
+      "explanation": "Just because there are bricks laid between the children does not mean they are building with them.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 161,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "Two children re laying on a rug with some wooden bricks laid out in a square between them.",
+    "hypothesis": "Two children are building a brick furnace.",
+    "explanation_annotator0": "Although the children are playing with wooden bricks, they may not specifically be building a brick furnace.",
+    "explanation_annotator1": "Although the children are playing with wooden bricks, they may not specifically be building a brick furnace.",
+    "full_entry_annotator0": {
+      "pairID": "847782643.jpg#0r1n",
+      "premise": "Two children re laying on a rug with some wooden bricks laid out in a square between them.",
+      "hypothesis": "Two children are building a brick furnace.",
+      "explanation": "Although the children are playing with wooden bricks, they may not specifically be building a brick furnace.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "847782643.jpg#0r1n",
+      "premise": "Two children re laying on a rug with some wooden bricks laid out in a square between them.",
+      "hypothesis": "Two children are building a brick furnace.",
+      "explanation": "Although the children are playing with wooden bricks, they may not specifically be building a brick furnace.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 166,
+    "annotator0_label": "Syntactic-level Inference",
+    "annotator1_label": "Semantic-level Inference",
+    "premise": "Two children re laying on a rug with some wooden bricks laid out in a square between them.",
+    "hypothesis": "Two children are on a rug.",
+    "explanation_annotator0": "To say the children are \" laying on \" a rug is rephrasing \" on \" a rug.",
+    "explanation_annotator1": "To say the children are \" laying on \" a rug is rephrasing \" on \" a rug.",
+    "full_entry_annotator0": {
+      "pairID": "847782643.jpg#0r1e",
+      "premise": "Two children re laying on a rug with some wooden bricks laid out in a square between them.",
+      "hypothesis": "Two children are on a rug.",
+      "explanation": "To say the children are \" laying on \" a rug is rephrasing \" on \" a rug.",
+      "selected_steps": [
+        {
+          "step": "Step 3: Does the explanation involve a change in sentence structure that preserves meaning?",
+          "type": "Paraphrastic Inference (Syntactic)"
+        }
+      ],
+      "explanation_category": "Syntactic-level Inference",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "847782643.jpg#0r1e",
+      "premise": "Two children re laying on a rug with some wooden bricks laid out in a square between them.",
+      "hypothesis": "Two children are on a rug.",
+      "explanation": "To say the children are \" laying on \" a rug is rephrasing \" on \" a rug.",
+      "selected_steps": [
+        {
+          "step": "Step 3: Does the explanation involve a change in sentence structure that preserves meaning?",
+          "type": "Paraphrastic Inference (Syntactic)"
+        }
+      ],
+      "explanation_category": "Semantic-level Inference",
+      "note": ""
+    }
+  },
+  {
+    "index": 167,
+    "annotator0_label": "Syntactic-level Inference",
+    "annotator1_label": "Semantic-level Inference",
+    "premise": "Two children re laying on a rug with some wooden bricks laid out in a square between them.",
+    "hypothesis": "Two children are on a rug.",
+    "explanation_annotator0": "re laying on a rug can be inferred as on the rug.",
+    "explanation_annotator1": "re laying on a rug can be inferred as on the rug.",
+    "full_entry_annotator0": {
+      "pairID": "847782643.jpg#0r1e",
+      "premise": "Two children re laying on a rug with some wooden bricks laid out in a square between them.",
+      "hypothesis": "Two children are on a rug.",
+      "explanation": "re laying on a rug can be inferred as on the rug.",
+      "selected_steps": [
+        {
+          "step": "Step 3: Does the explanation involve a change in sentence structure that preserves meaning?",
+          "type": "Paraphrastic Inference (Syntactic)"
+        }
+      ],
+      "explanation_category": "Syntactic-level Inference",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "847782643.jpg#0r1e",
+      "premise": "Two children re laying on a rug with some wooden bricks laid out in a square between them.",
+      "hypothesis": "Two children are on a rug.",
+      "explanation": "re laying on a rug can be inferred as on the rug.",
+      "selected_steps": [
+        {
+          "step": "Step 2: Does the explanation involve semantic similarity or substitution of key concepts?",
+          "type": "Paraphrastic Inference (Semantic)"
+        }
+      ],
+      "explanation_category": "Semantic-level Inference",
+      "note": ""
+    }
+  },
+  {
+    "index": 174,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Absence of Mention",
+    "premise": "A man standing in front of a building on the phone as two men to the side pain on the side.",
+    "hypothesis": "a busy man stands with bodyguards",
+    "explanation_annotator0": "You can not infer he is with bodyguards.",
+    "explanation_annotator1": "You can not infer he is with bodyguards.",
+    "full_entry_annotator0": {
+      "pairID": "3020218156.jpg#2r1n",
+      "premise": "A man standing in front of a building on the phone as two men to the side pain on the side.",
+      "hypothesis": "a busy man stands with bodyguards",
+      "explanation": "You can not infer he is with bodyguards.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3020218156.jpg#2r1n",
+      "premise": "A man standing in front of a building on the phone as two men to the side pain on the side.",
+      "hypothesis": "a busy man stands with bodyguards",
+      "explanation": "You can not infer he is with bodyguards.",
+      "selected_steps": [
+        {
+          "step": "Step 5: Does the explanation point out information not mentioned in the premise?",
+          "type": "Absence of Mention"
+        }
+      ],
+      "explanation_category": "Absence of Mention",
+      "note": ""
+    }
+  },
+  {
+    "index": 176,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A man standing in front of a building on the phone as two men to the side pain on the side.",
+    "hypothesis": "a busy man stands with bodyguards",
+    "explanation_annotator0": "The two men standing to the side of the other men may not actually be his bodyguards.",
+    "explanation_annotator1": "The two men standing to the side of the other men may not actually be his bodyguards.",
+    "full_entry_annotator0": {
+      "pairID": "3020218156.jpg#2r1n",
+      "premise": "A man standing in front of a building on the phone as two men to the side pain on the side.",
+      "hypothesis": "a busy man stands with bodyguards",
+      "explanation": "The two men standing to the side of the other men may not actually be his bodyguards.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3020218156.jpg#2r1n",
+      "premise": "A man standing in front of a building on the phone as two men to the side pain on the side.",
+      "hypothesis": "a busy man stands with bodyguards",
+      "explanation": "The two men standing to the side of the other men may not actually be his bodyguards.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 182,
+    "annotator0_label": "Factual Knowledge",
+    "annotator1_label": "World-Informed Logical Reasoning",
+    "premise": "The two young girls are dressed as fairies, and are playing in the leaves outdoors.",
+    "hypothesis": "Two girls play dress up indoors.",
+    "explanation_annotator0": "The girls cannot be playing in leaves outdoors if they are indoors as leaves typically remain outdoors.",
+    "explanation_annotator1": "The girls cannot be playing in leaves outdoors if they are indoors as leaves typically remain outdoors.",
+    "full_entry_annotator0": {
+      "pairID": "3036382555.jpg#0r1c",
+      "premise": "The two young girls are dressed as fairies, and are playing in the leaves outdoors.",
+      "hypothesis": "Two girls play dress up indoors.",
+      "explanation": "The girls cannot be playing in leaves outdoors if they are indoors as leaves typically remain outdoors.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3036382555.jpg#0r1c",
+      "premise": "The two young girls are dressed as fairies, and are playing in the leaves outdoors.",
+      "hypothesis": "Two girls play dress up indoors.",
+      "explanation": "The girls cannot be playing in leaves outdoors if they are indoors as leaves typically remain outdoors.",
+      "selected_steps": [
+        {
+          "step": "Step 6: Does the explanation refer to logical constraints or conflict?",
+          "type": "Logical Conflict"
+        },
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    }
+  },
+  {
+    "index": 186,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "People jump over a mountain crevasse on a rope.",
+    "hypothesis": "Some people look visually afraid to jump.",
+    "explanation_annotator0": "People looking afraid to jump doesn't mean they are jumping over a mountain crevasse.",
+    "explanation_annotator1": "People looking afraid to jump doesn't mean they are jumping over a mountain crevasse.",
+    "full_entry_annotator0": {
+      "pairID": "407008823.jpg#3r1n",
+      "premise": "People jump over a mountain crevasse on a rope.",
+      "hypothesis": "Some people look visually afraid to jump.",
+      "explanation": "People looking afraid to jump doesn't mean they are jumping over a mountain crevasse.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "407008823.jpg#3r1n",
+      "premise": "People jump over a mountain crevasse on a rope.",
+      "hypothesis": "Some people look visually afraid to jump.",
+      "explanation": "People looking afraid to jump doesn't mean they are jumping over a mountain crevasse.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 196,
+    "annotator0_label": "Syntactic-level Inference",
+    "annotator1_label": "Semantic-level Inference",
+    "premise": "A snowboarder on a wide plain of snow",
+    "hypothesis": "A snow field with a snowboarder on it",
+    "explanation_annotator0": "Wide plain of snow is a rephrasing of snow field.",
+    "explanation_annotator1": "Wide plain of snow is a rephrasing of snow field.",
+    "full_entry_annotator0": {
+      "pairID": "3364026240.jpg#3r1e",
+      "premise": "A snowboarder on a wide plain of snow",
+      "hypothesis": "A snow field with a snowboarder on it",
+      "explanation": "Wide plain of snow is a rephrasing of snow field.",
+      "selected_steps": [
+        {
+          "step": "Step 3: Does the explanation involve a change in sentence structure that preserves meaning?",
+          "type": "Paraphrastic Inference (Syntactic)"
+        }
+      ],
+      "explanation_category": "Syntactic-level Inference",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3364026240.jpg#3r1e",
+      "premise": "A snowboarder on a wide plain of snow",
+      "hypothesis": "A snow field with a snowboarder on it",
+      "explanation": "Wide plain of snow is a rephrasing of snow field.",
+      "selected_steps": [
+        {
+          "step": "Step 3: Does the explanation involve a change in sentence structure that preserves meaning?",
+          "type": "Paraphrastic Inference (Syntactic)"
+        }
+      ],
+      "explanation_category": "Semantic-level Inference",
+      "note": ""
+    }
+  },
+  {
+    "index": 198,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A snowboarder on a wide plain of snow",
+    "hypothesis": "A snowboarder gliding over a field of snow",
+    "explanation_annotator0": "Just because a snow boarder is on snow does not mean that he is in motion gliding over the snow.",
+    "explanation_annotator1": "Just because a snow boarder is on snow does not mean that he is in motion gliding over the snow.",
+    "full_entry_annotator0": {
+      "pairID": "3364026240.jpg#3r1n",
+      "premise": "A snowboarder on a wide plain of snow",
+      "hypothesis": "A snowboarder gliding over a field of snow",
+      "explanation": "Just because a snow boarder is on snow does not mean that he is in motion gliding over the snow.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3364026240.jpg#3r1n",
+      "premise": "A snowboarder on a wide plain of snow",
+      "hypothesis": "A snowboarder gliding over a field of snow",
+      "explanation": "Just because a snow boarder is on snow does not mean that he is in motion gliding over the snow.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  },
+  {
+    "index": 199,
+    "annotator0_label": "World-Informed Logical Reasoning",
+    "annotator1_label": "Factual Knowledge",
+    "premise": "A snowboarder on a wide plain of snow",
+    "hypothesis": "A snowboarder gliding over a field of snow",
+    "explanation_annotator0": "Just because the snowboarder is on a wide plain of snow doesn't mean he is gliding.",
+    "explanation_annotator1": "Just because the snowboarder is on a wide plain of snow doesn't mean he is gliding.",
+    "full_entry_annotator0": {
+      "pairID": "3364026240.jpg#3r1n",
+      "premise": "A snowboarder on a wide plain of snow",
+      "hypothesis": "A snowboarder gliding over a field of snow",
+      "explanation": "Just because the snowboarder is on a wide plain of snow doesn't mean he is gliding.",
+      "selected_steps": [
+        {
+          "step": "Step 8: Does the explanation rely on real-world logical or causal reasoning?",
+          "type": "World-Informed Logical Reasoning"
+        }
+      ],
+      "explanation_category": "World-Informed Logical Reasoning",
+      "note": ""
+    },
+    "full_entry_annotator1": {
+      "pairID": "3364026240.jpg#3r1n",
+      "premise": "A snowboarder on a wide plain of snow",
+      "hypothesis": "A snowboarder gliding over a field of snow",
+      "explanation": "Just because the snowboarder is on a wide plain of snow doesn't mean he is gliding.",
+      "selected_steps": [
+        {
+          "step": "Step 7: Does the explanation rely on commonsense, factual, or domain-specific knowledge?",
+          "type": "Factual Knowledge"
+        }
+      ],
+      "explanation_category": "Factual Knowledge",
+      "note": ""
+    }
+  }
+]
